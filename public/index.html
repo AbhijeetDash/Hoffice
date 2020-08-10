@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Hoffice</title>
+</head>
+
+<body>
+    <aside id="elevated">
+
+        <!-- 
+            Welcome Section Begins
+         -->
+
+        <div id="welcome">
+            <header id="header1">
+                <h2 id="logo">Hoffice</h2>
+                <nav>
+                    <ul class="navLinks">
+                        <li><a href="#welcome">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#productSection">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#container">Prices</a></li>
+                    </ul>
+                </nav>
+                <a href="#contact" class="cta"><button>Contact</button></a>
+            </header>
+            <header id="header2">
+                <div id="menu">
+                    <a href="#" onclick="menuload()"><img id="menuIcon" src="images/menu.svg" ,
+                            style="color: white;"></a>
+                </div>
+                <div>
+                    <h2 id="logo">Hoffice</h2>
+                </div>
+                <div id="MobileNav">
+                    <ul>
+                        <li><a href="#welcome">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#productSection">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#container">Prices</a></li>
+                        <li>
+                            <div id="button">
+                                <a href="#contact" class="cta"><button>Contact</button></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div id="particles-js">
+                <div id="topalign">
+                    <div id="centerText">
+                        <p id="headingText">What we do?</p>
+                        <p>We provide best in class setups to make work from home as efficient as possible, So that you
+                            dont
+                            have to
+                            worry anout anything and your employees can work peacefully.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 
+            About Section Begins
+         -->
+
+        <div id="about">
+            <div id="svg">
+                <img src="./images/workAnywhere.svg" alt="">
+            </div>
+            <div id="aboutText">
+                <h2>ABOUT US</h2>
+                <div class="border"></div>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap
+                    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                    the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing
+                    software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of
+                    the
+                    printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                    since
+                    the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book.
+                </p>
+            </div>
+            <div id="aboutText2">
+                <h2>ABOUT US</h2>
+                <div class="border"></div>
+                <p id="AboutPara">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap
+                    into electronic typesetting, remaining essentially unchanged.
+                </p><br>
+                <button id="readMore" onclick="readMore()">Read more</button>
+                <button id="readLess" onclick="readLess()">Read less</button>
+            </div>
+        </div>
+
+        <!-- 
+            Service Section Begins
+         -->
+
+        <div class="services-section" id="services">
+            <div class="inner-width">
+                <h1 class="section-title">what we provide</h1>
+                <div class="border"></div>
+                <div class="services-container">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <img class="fas fa-paint-brush" src="./images/router-white-48dp.svg"></i>
+                        </div>
+                        <div class="service-title">Fast Internet</div>
+                        <div class="service-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
+                        </div>
+                    </div>
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <img class="fas fa-paint-brush" src="./images/weekend-white-48dp.svg"></i>
+                        </div>
+                        <div class="service-title">Environment</div>
+                        <div class="service-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
+                        </div>
+                    </div>
+
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <img class="fas fa-paint-brush" src="./images/devices_other-white-48dp.svg"></i>
+                        </div>
+                        <div class="service-title">Better Devices</div>
+                        <div class="service-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
+                        </div>
+                    </div>
+
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <img class="fas fa-paint-brush" src="./images/videocam-white-48dp.svg"></i>
+                        </div>
+                        <div class="service-title">Monitoring</div>
+                        <div class="service-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="productSection">
+            <div id="ProductDiv">
+                <div id="ProductTitle">Our Products</div>
+                <div class="border"></div>
+                <div id="bestdeal">
+                    <div id="Table" class="bestProducts"><img
+                            src="https://ii1.pepperfry.com/media/catalog/product/w/r/764x840/writing-table-in-walnut-finish-by-comfold-writing-table-in-walnut-finish-by-comfold-kttaxw.jpg"
+                            width="100%" height="100%"></div>
+                    <div id="chair" class="bestProducts"><img
+                            src="https://ii1.pepperfry.com/media/catalog/product/b/u/764x840/butterfly-dsw-replica-chair-in-orange-colour-by-furnikart-butterfly-dsw-replica-chair-in-orange-colo-o3nsnk.jpg"
+                            width="100%" height="100%"></div>
+                    <div id="mouse" class="bestProducts"><img
+                            src="https://shop.sky.bg/image/cache/data/pics/modules/48581-1000x1000.jpg" width="100%"
+                            height="100%"></div>
+                    <div id="headphone" class="bestProducts"><img
+                            src=""
+                            width="100%" height="100%"></div>
+                    <div id="laptop" class="bestProducts"><img
+                            src="https://static.bhphoto.com/images/images2500x2500/1585594288_1547136.jpg" width="100%"
+                            height="100%"></div>
+                    <div id="keyboard" class="bestProducts"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/9/96/Apple-wireless-keyboard-aluminum-2007.jpg"
+                            width="100%" height="100%"></div>
+                    <div id="lamp" class="bestProducts"><img
+                            src="https://ak1.ostkcdn.com/images/products/30266078/Adesso-Mid-Century-Modern-Emmett-Desk-Lamp-0c5cb367-9493-44a9-9a5d-ea4de0c2fcd1.jpg"
+                            width="100%" height="100%"></div>
+                </div>
+            </div>
+            <div id="ProductDivMob">
+                <div id="ProductTitle">Our Products</div>
+                <div class="border"></div>
+                <div class="long ProductinnerDiv"><img
+                        src="https://ii1.pepperfry.com/media/catalog/product/w/r/764x840/writing-table-in-walnut-finish-by-comfold-writing-table-in-walnut-finish-by-comfold-kttaxw.jpg"
+                        width="100%" height="100%"></div>
+                <div class="short ProductinnerDiv"><img
+                        src=""
+                        width="100%" height="100%"></div>
+                <div class="short ProductinnerDiv"><img
+                        src="https://shop.sky.bg/image/cache/data/pics/modules/48581-1000x1000.jpg" width="100%"
+                        height="100%"></div>
+                <div class="Mid ProductinnerDiv"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/9/96/Apple-wireless-keyboard-aluminum-2007.jpg"
+                        width="100%" height="100%"></div>
+                <div class="long ProductinnerDiv"><img
+                        src="https://ii1.pepperfry.com/media/catalog/product/b/u/764x840/butterfly-dsw-replica-chair-in-orange-colour-by-furnikart-butterfly-dsw-replica-chair-in-orange-colo-o3nsnk.jpg"
+                        width="100%" height="100%"></div>
+                <div class="short ProductinnerDiv"><img
+                        src="https://ak1.ostkcdn.com/images/products/30266078/Adesso-Mid-Century-Modern-Emmett-Desk-Lamp-0c5cb367-9493-44a9-9a5d-ea4de0c2fcd1.jpg"
+                        width="100%" height="100%"></div>
+                <div class="short ProductinnerDiv"><img
+                        src="https://static.bhphoto.com/images/images2500x2500/1585594288_1547136.jpg" width="100%"
+                        height="100%"></div>
+            </div>
+        </div>
+        <div class="container" id="prices">
+            <div id="price-blur">
+                <div id="pricetitle">
+                    <h2>OUR PRICING</h2>
+                    <div class="border"></div>
+                </div>
+                <div class="pricing-table table1">
+                    <div class="pricing-header">
+                        <div class="price"><span>$</span>599</div>
+                        <div class="title">Sparks</div>
+                    </div>
+                    <ul class="pricing-list">
+                        <li><strong>2mbps</strong> Internet</li>
+                        <div class="border2"></div>
+                        <li><strong>3x2</strong> Table / person</li>
+                        <div class="border2"></div>
+                        <li><strong>1 Ergonomic</strong> Chair / person</li>
+                        <div class="border2"></div>
+                        <li><strong>1 Laptop</strong> As Spec / person</li>
+                        <div class="border2"></div>
+                        <li><strong>24h</strong> Support</li>
+                        <div class="border2"></div>
+                        <li><button id="buy1">Contact us</button></li>
+                    </ul>
+                </div>
+
+                <div class="pricing-table table2">
+                    <div class="pricing-header">
+                        <div class="price"><span>$</span>999</div>
+                        <div class="title">Ignite</div>
+                    </div>
+                    <ul class="pricing-list">
+                        <li><strong>5mbps</strong> Internet</li>
+                        <div class="border2"></div>
+                        <li><strong>3x2</strong> Table / person</li>
+                        <div class="border2"></div>
+                        <li><strong>1 Ergonomic</strong> Chair / person</li>
+                        <div class="border2"></div>
+                        <li><strong>1 Laptop</strong> As Spec / person</li>
+                        <div class="border2"></div>
+                        <li><strong>24h</strong> Support</li>
+                        <div class="border2"></div>
+                        <li><button id="buy2">Contact us</button></li>
+                    </ul>
+                </div>
+
+                <div class="pricing-table table3">
+                    <div class="pricing-header">
+                        <div class="price"><span>$</span>1499</div>
+                        <div class="title">Firefly</div>
+                    </div>
+                    <ul class="pricing-list">
+                        <li><strong>10mbps</strong> Internet</li>
+                        <div class="border2"></div>
+                        <li><strong>Custom</strong> Table / person</li>
+                        <div class="border2"></div>
+                        <li><strong>Custom</strong> Chair / person</li>
+                        <div class="border2"></div>
+                        <li><strong>1 Laptop</strong> As Spec / person</li>
+                        <div class="border2"></div>
+                        <li><strong>24h</strong> Support</li>
+                        <div class="border2"></div>
+                        <li><button id="buy3">Contact us</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div id="contactText">Contact Us</div>
+            <div class="border"></div>
+            <div id="centerForm">
+                <div id="formDes">
+                    <form id="formQuery" onsubmit="saveQuery()">
+                        <ul>
+                            <li><span class="inputName"> Name</span><br><input type="text" name="name" placeholder="Your name"></li>
+                            <li><span class="inputName"> From</span><br><input type="text" name="compName" placeholder="Your company Name"></li>
+                            <li><span class="inputName">Email</span><br><input type="text" name="email" placeholder="Your email"></li>
+                            <li><span class="inputName">Message</span><br><textarea name="queryArea"
+                                    cols="30" rows="10"></textarea></li>
+                            <li></li><button>Submit</button></li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="border"></div>
+        <div id="footer">
+            <div id="footer-row">
+                <div id="company-name-footer">Hoffice Solutions<br><span style="font-size: 14px;">We are here<br>for our demo address<br>demo contact</span></div>
+            </div>
+            <div id="footer-row" class="hideMobileFooter">
+                <ul>
+                    <li><div id="ul-header">Links</div></li>
+                    <li><a href="#welcome">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#productSection">Products</a></li>
+                    <li><a href="#prices">Prices</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div id="footer-row">
+                <div class="socio-icon"><img src="./images/facebook.svg" width="25px" height="25px" alt=""></div>
+                <div class="socio-icon"><img src="./images/instagram-logo.svg" width="25px" height="25px" alt=""></div>
+                <div class="socio-icon"><img src="./images/twitter.svg" width="25px" height="25px" alt=""></div>
+            </div>
+        </div>
+        <div class="border"></div>
+        <div id="footer-copy">
+            This Website is a &#169Copyright of Hoffice Solutions
+        </div>
+    </aside>
+    <script src="./js/content.js"></script>
+    <script type="text/javascript" src="./js/particles.min.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+                    // Store hash
+                    var hash = this.hash;
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 100, function () {
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
+</body>
+
+</html>

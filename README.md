@@ -5,3 +5,6 @@ Hoffice solutions is a furniture rentilite for enterprices.. This project is a l
 
 Firebase - Hosting, Functions, Cloud-Firestore </br>
 Development - HTML, CSS, JS, NodeJS
+
+# Demo
+![](Screen-Recording-2020-11-04-at-7.gif)
